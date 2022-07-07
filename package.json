@@ -26,10 +26,15 @@
   "dependencies": {
     "@tencent/firefox-add": "^1.0.1",
     "babel-loader": "^8.2.5",
+    "firefox-ui": "^0.1.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.6.0",
     "node-sass": "^7.0.1",
     "sass-loader": "^13.0.0",
     "webpack-dev-server": "^4.9.0"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }
